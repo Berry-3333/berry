@@ -1,0 +1,1 @@
+Fixed generator navigation: search 32,767 categories at top generator area; selecting a result opens the functional combined generator immediately below the original generator, before the long catalog. Search supports + and AND between category terms. Original 15 generators retained. CSV export remains available.

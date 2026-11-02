@@ -1,0 +1,23 @@
+/* Zharief left-aligned rotating Earth editorial homepage */
+html{scroll-behavior:smooth}body{background:#fff}header{position:relative;z-index:10}
+.zhero{background:#fff;position:relative;overflow:hidden;padding:0!important;color:#182436}
+.zhero-network{position:absolute;top:0;left:0;right:0;height:490px;background:radial-gradient(ellipse at 50% 25%,rgba(19,74,67,.5),transparent 65%),linear-gradient(120deg,#03090b,#071c1c 45%,#03090b);overflow:hidden}
+.zhero-network:after{content:"";position:absolute;inset:-50%;opacity:.48;background-image:repeating-linear-gradient(30deg,transparent 0 76px,rgba(57,190,139,.25) 77px,transparent 78px),repeating-linear-gradient(146deg,transparent 0 100px,rgba(60,112,206,.22) 101px,transparent 102px);transform:perspective(800px) rotateX(22deg)}
+.zhero-inner{position:relative;max-width:1260px;margin:0 auto;min-height:710px;display:flex;align-items:flex-start;justify-content:center;padding:60px 28px 0}
+.zhero-heading{position:absolute;right:4%;top:90px;width:39%;color:white;z-index:2}
+.zhero-overline{font-size:11px;letter-spacing:.2em;color:#a3c8c6}
+.zhero-heading h1{font-family:'Helvetica Neue',Arial,sans-serif;font-size:clamp(36px,4.2vw,68px);font-weight:300;line-height:1.12;letter-spacing:-.04em;margin:20px 0}
+.zhero-heading p{font-size:16px;line-height:1.65;color:#d0dcdf;max-width:440px}
+.zhero-action{display:inline-flex;gap:28px;align-items:center;background:#e9802c;color:#fff!important;text-decoration:none;padding:15px 22px;margin-top:18px;font-size:12px;letter-spacing:.08em;font-weight:700}
+.zhero-globe{position:absolute;left:3%;transform:none;top:90px;width:min(610px,52vw);height:min(610px,52vw);z-index:3;pointer-events:none}
+.zhero-globe img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 12px 25px rgba(0,0,0,.2))}
+.zhero-globe-caption{position:absolute;bottom:0;left:0;right:0;text-align:center;font-size:10px;letter-spacing:.17em;color:#596677}
+.zhero-bottom{max-width:1150px;margin:0 auto;padding:28px 30px 90px;display:grid;grid-template-columns:1fr 1fr;gap:8%;align-items:start}
+.zhero-bottom h2{font-size:clamp(28px,3vw,44px);font-weight:400;line-height:1.2;letter-spacing:-.035em;margin:16px 0}
+.zhero-bottom p{font-size:16px;line-height:1.85;color:#475467;margin:0}
+#generator{scroll-margin-top:20px}#files{scroll-margin-top:20px}
+@media(max-width:900px){.zhero-network{height:580px}.zhero-inner{min-height:740px}.zhero-heading{top:35px;right:7%;left:7%;width:auto;text-align:center}.zhero-heading h1{font-size:clamp(34px,7vw,52px)}.zhero-heading p{margin:auto}.zhero-globe{top:310px;width:min(450px,82vw);height:min(450px,82vw)}.zhero-bottom{grid-template-columns:1fr;padding:28px 22px 65px;gap:15px}}
+@media(max-width:520px){.zhero-network{height:520px}.zhero-inner{min-height:600px;padding:0 16px}.zhero-heading{top:34px}.zhero-heading h1{font-size:35px}.zhero-heading p{font-size:13px}.zhero-action{margin-top:10px;padding:12px 16px}.zhero-globe{top:285px;width:88vw;height:88vw}.zhero-globe-caption{font-size:8px;bottom:-10px}.zhero-bottom{padding-top:35px}}
+
+/* On smaller screens, stack copy above the globe for readability. */
+@media(max-width:900px){.zhero-globe{left:50%;transform:translateX(-50%)}}

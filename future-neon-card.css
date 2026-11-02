@@ -1,0 +1,7 @@
+/* Future History card only — isolated from cards 01–10 */
+.z-collection-card .future-art {position:relative;isolation:isolate;box-sizing:border-box;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end;gap:9px;min-height:250px;padding:26px;overflow:hidden;background:#060812 url("future-history-neon-waves.jpg") center center/cover no-repeat!important;color:#fff!important;border-radius:12px 12px 0 0;}
+.z-collection-card .future-art:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(1,4,16,.10),rgba(1,4,16,.28) 35%,rgba(1,4,16,.88) 100%)}
+.z-collection-card .future-art span{font-size:12px;letter-spacing:.16em;font-weight:700;color:#dbeafe}
+.z-collection-card .future-art strong{font-size:clamp(27px,3vw,39px);line-height:1.03;letter-spacing:.02em;font-weight:850;color:white;text-shadow:0 2px 12px rgba(0,0,0,.5)}
+.z-collection-card .future-art small{font-size:10px;line-height:1.5;letter-spacing:.13em;font-weight:700;color:#e5e7eb}
+@media(max-width:600px){.z-collection-card .future-art{min-height:220px;padding:20px}}

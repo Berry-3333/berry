@@ -1,0 +1,9 @@
+{
+  "country": "Korea, Democratic People's Republic of",
+  "index": 91,
+  "dataset_ranges": [
+    "975000000000",
+    "2000000000000000"
+  ],
+  "note": "Synthetic generator; no original country ID mapping verified"
+}

@@ -1,0 +1,9 @@
+{
+  "country": "Nicaragua",
+  "index": 127,
+  "dataset_ranges": [
+    "975000000000",
+    "2000000000000000"
+  ],
+  "note": "Synthetic generator; no original country ID mapping verified"
+}

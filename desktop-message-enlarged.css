@@ -1,0 +1,23 @@
+/* Larger floating message control and chat panel on desktop only. */
+@media (min-width: 1024px) {
+  html body #zai-launch.zai-launch {
+    width: 66px !important;
+    height: 66px !important;
+    min-width: 66px !important;
+    min-height: 66px !important;
+    right: 26px !important;
+    bottom: 26px !important;
+    border-radius: 50% !important;
+  }
+  html body #zai-launch.zai-launch svg {
+    width: 29px !important;
+    height: 29px !important;
+  }
+  html body #zai-panel.zai-v2 {
+    width: min(480px, calc(100vw - 48px)) !important;
+    height: min(660px, calc(100dvh - 130px)) !important;
+    max-height: calc(100dvh - 130px) !important;
+    right: 26px !important;
+    bottom: 106px !important;
+  }
+}

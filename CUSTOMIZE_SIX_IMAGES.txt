@@ -1,0 +1,18 @@
+HOW TO REPLACE THE SIX CATEGORY IMAGES
+
+Open index.html in VS Code and find assets/collections/01.svg through 06.svg.
+Replace each img src with your own file path, e.g. assets/collections/job-ideas.webp.
+Place your JPG, PNG, SVG or WEBP images inside assets/collections/.
+
+01 Job Ideas
+02 Person Names
+03 Email Addresses
+04 Passwords
+05 World Languages & English Meanings
+06 Random Numbers
+
+Suggested dimensions: 1200 x 570 pixels (approximately 2.1:1).
+
+IMPORTANT: These six cards are informational collection links. They do not add six functional generator engines. Existing job generator functionality is unchanged. Language translation requires a verified local dictionary; coverage of 195 countries is a planned topic, not a claim that 195 dictionaries are already included.
+
+For Cloudflare Pages deploy the CONTENTS of Zharief_COM, so index.html is at the published root.

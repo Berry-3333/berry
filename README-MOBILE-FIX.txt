@@ -1,0 +1,1 @@
+Zharief AI Mobile Fix D. Extract ZIP and upload the inner folder to Cloudflare Pages. Clear browser cache after deployment. Chat is visible on the homepage; other country pages do not contain the chat widget.

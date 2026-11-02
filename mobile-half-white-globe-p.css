@@ -1,0 +1,10 @@
+/* Mobile hero: upper space image, lower white background, globe overlapping both. */
+@media (max-width: 900px) {
+ .zhero { background:#fff !important; }
+ .zhero-network { height:100% !important; clip-path:inset(0 0 34% 0) !important; }
+ .zhero-inner { position:relative; z-index:2; }
+ .zhero-globe { z-index:3 !important; }
+}
+@media (max-width: 520px) {
+ .zhero-network { clip-path:inset(0 0 34% 0) !important; }
+}

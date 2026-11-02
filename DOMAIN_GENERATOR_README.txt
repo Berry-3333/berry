@@ -1,0 +1,1 @@
+Domain Names is the seventh website category. Browser preview supports a representative subset of TLDs and CSV exports up to 100,000 rows. Download the ZIP under Domain Names to generate 1 billion rows with the bundled offline Python tool. The Python bundle contains a TLD snapshot, not a guaranteed complete/current IANA list. No availability check is performed.

@@ -1,0 +1,50 @@
+
+/* Responsive publishing layer: phones, tablets, desktops */
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{min-width:0;overflow-x:hidden;-webkit-text-size-adjust:100%}
+img,svg,canvas,video{max-width:100%}
+main,section,header,footer,.hero-inner,.generator-card,.download-panel{min-width:0}
+p,h1,h2,h3,td,th{overflow-wrap:break-word}
+button,input,select{font:inherit;max-width:100%}
+button,a,select{touch-action:manipulation}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #e66b36;outline-offset:3px}
+.generator-fields{min-width:0}
+.generator-fields>*{min-width:0}
+.generator-card input,.generator-card select{width:100%;min-width:0}
+.preview-wrap{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.atm-panel{max-width:min(94vw,460px);max-height:92dvh;overflow-y:auto}
+@media(max-width:900px){
+ .generator-section{padding-block:70px}
+ .generator-card{width:100%;max-width:100%}
+ .global-network{max-width:100%}
+}
+@media(max-width:640px){
+ html{scroll-padding-top:58px}
+ body{font-size:15px;line-height:1.55}
+ h1,h2{line-height:1.12}
+ .generator-section{padding:52px 16px}
+ .generator-head h2{font-size:clamp(29px,8vw,42px)}
+ .generator-card{padding:20px 15px;border-radius:18px}
+ .generator-fields{display:grid;grid-template-columns:minmax(0,1fr);gap:8px}
+ .generator-card input,.generator-card select{height:52px;margin-bottom:13px;font-size:16px}
+ .generator-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .generator-actions button{width:100%;min-width:0;min-height:48px;white-space:normal;overflow-wrap:anywhere}
+ #previewBtn{min-width:0}
+ .generator-card:before{letter-spacing:.07em;line-height:1.5}
+ .preview-wrap{margin-inline:0}
+ #preview{min-width:620px}
+ #preview th,#preview td{padding:11px 12px;font-size:12px}
+ .atm-panel{width:calc(100vw - 24px);padding:15px}
+ .atm-grid button{min-height:48px}
+ .global-network canvas{max-width:100%}
+}
+@media(max-width:380px){
+ .generator-section{padding-inline:12px}
+ .generator-card{padding:16px 12px}
+ .generator-actions{gap:7px}
+ .generator-actions button{font-size:11px;padding:10px 6px}
+}
+@media(prefers-reduced-motion:reduce){
+ *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}

@@ -1,0 +1,6 @@
+/* Homepage hero background: change hero-background.jpg to swap the image. */
+.zhero-network{background:#04101a url('hero-background.jpg') center center / cover no-repeat!important;opacity:1;}
+.zhero-network::after{content:none!important;display:none!important;}
+.zhero-network::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(1,9,16,.40),rgba(1,10,17,.36) 52%,rgba(1,10,17,.64));pointer-events:none;}
+.zhero-heading{z-index:4}
+@media(max-width:900px){.zhero-network{height:100%!important;background-position:center top!important}.zhero-network::before{background:rgba(1,9,16,.56)}}

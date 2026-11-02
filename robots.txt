@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zharief.com/sitemap.xml

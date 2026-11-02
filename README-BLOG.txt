@@ -1,0 +1,1 @@
+BLOG menu now opens https://blog.zharief.com/ directly. Deploy blog separately and connect the custom domain in Cloudflare Pages.

@@ -1,0 +1,1 @@
+Sen Earth Live 24/7 added as a separate earth-live.html page, linked immediately after the 32,767 generators catalog on index.html. YouTube video ID: fO9e9jnhYK8. Sound is controlled by the viewer in YouTube player. Upload the contents of the parent folder to Cloudflare Pages.

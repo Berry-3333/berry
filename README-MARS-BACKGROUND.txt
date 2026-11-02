@@ -1,0 +1,1 @@
+Mars rotating GIF display treatment: CSS screen blend and circular feather mask hides the dark GIF rectangle on dark backgrounds. Original Wikimedia GIF is externally loaded, not edited. JOGOS Public Assets, CC BY-SA 4.0. This cannot guarantee transparency for all original GIF background colors.

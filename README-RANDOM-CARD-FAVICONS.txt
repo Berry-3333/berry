@@ -1,0 +1,1 @@
+R2: Each of the 32,767 generator catalog cards now displays a randomly generated domain with its favicon and a direct external link. Reload changes domains. Visible cards rotate every five seconds. Domains are not verified active. Generator buttons remain independent.

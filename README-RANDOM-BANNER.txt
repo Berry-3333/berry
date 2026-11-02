@@ -1,0 +1,1 @@
+Random website banner is placed above the 32,767 combination grid. Refresh changes the domain; rotates every 5 seconds. Google favicon service may return a generic icon for domains without favicons. Generated domains are not checked for registration, safety or availability. Upload the entire inner folder contents to Cloudflare Pages.

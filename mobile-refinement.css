@@ -1,0 +1,37 @@
+/* Mobile-first layout refinement — 2026 */
+*,*::before,*::after{box-sizing:border-box}
+html,body{max-width:100%;overflow-x:clip}
+img,video,canvas,svg{max-width:100%}
+@media(max-width:900px){
+ .zhero-inner{display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:flex-start!important;gap:16px!important;min-height:0!important;padding:42px 20px 32px!important}
+ .zhero-heading{position:relative!important;inset:auto!important;width:100%!important;max-width:640px!important;text-align:center!important;order:1!important}
+ .zhero-heading h1{font-size:clamp(32px,6.2vw,50px)!important;line-height:1.12!important;overflow-wrap:break-word}
+ .zhero-heading p{max-width:520px!important;margin-inline:auto!important}
+ .zhero-globe{position:relative!important;inset:auto!important;left:auto!important;top:auto!important;transform:none!important;order:2!important;width:min(520px,88vw)!important;height:auto!important;aspect-ratio:1!important;margin:0 auto!important}
+ .zhero-globe img{display:block;width:100%!important;height:100%!important;object-fit:contain!important}
+ .zhero-globe-caption{bottom:0!important}
+ .zhero-network{height:min(850px,100%)!important}
+ .zhero-bottom{position:relative;z-index:1;grid-template-columns:1fr!important;padding:28px 22px 56px!important}
+ .gd-columns{grid-template-columns:1fr!important}
+}
+@media(max-width:600px){
+ header{min-height:0!important;padding:12px 16px!important;gap:10px!important;flex-wrap:wrap!important}
+ header .brand{min-width:0!important;flex:1 1 auto!important}
+ header .brand-name{font-size:clamp(19px,5vw,26px)!important}
+ header nav{order:3!important;flex:1 0 100%!important;display:flex!important;overflow-x:auto!important;gap:18px!important;white-space:nowrap!important;padding:10px 0 3px!important;scrollbar-width:thin}
+ header nav a{flex-shrink:0!important;font-size:11px!important}
+ header .header-cta{font-size:10px!important;padding:9px 11px!important;white-space:nowrap!important}
+ .zhero-inner{padding:28px 16px 22px!important;gap:10px!important}
+ .zhero-heading h1{font-size:clamp(30px,8.2vw,42px)!important;margin:13px 0!important}
+ .zhero-heading p{font-size:14px!important;line-height:1.55!important}
+ .zhero-overline{font-size:9px!important;letter-spacing:.13em!important}
+ .zhero-globe{width:min(420px,94vw)!important}
+ .zhero-globe-caption{font-size:8px!important;letter-spacing:.08em!important}
+ .zhero-bottom{padding:22px 18px 45px!important;gap:12px!important}
+ .zhero-bottom h2{font-size:29px!important}
+ .zhero-bottom p{font-size:14px!important;line-height:1.7!important}
+ main section{max-width:100%}
+ input,select,textarea,button{max-width:100%;font-size:16px}
+ table{display:block;max-width:100%;overflow-x:auto}
+}
+@media(max-width:360px){header .header-cta{font-size:9px!important;padding:8px!important}.zhero-heading h1{font-size:29px!important}.zhero-globe{width:94vw!important}}

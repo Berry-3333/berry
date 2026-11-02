@@ -1,0 +1,1 @@
+Generator 08 Coding Dictionary. 198 curated entries across 21 languages. English-only meanings. Same workspace as 01-07. CSV exports sample with replacement, so repeated entries are possible. Offline mini-app available in downloads. To deploy, upload the contents of this main folder to Cloudflare Pages.

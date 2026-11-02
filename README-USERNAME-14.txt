@@ -1,0 +1,1 @@
+Username Generator #14 — Country + Unique ID + Username. No category/style selector. The region selector is optional (Worldwide by default). Ten preview rows have different usernames. CSV.GZ export works in supported browsers. Country labels are synthetic metadata, not verified nationality, linguistic origin, or platform availability.

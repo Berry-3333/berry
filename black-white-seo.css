@@ -1,0 +1,20 @@
+/* Selective editorial monochrome: UI only, preserve photographic and globe color */
+:root{--editorial-ink:#151515;--editorial-paper:#fff;--editorial-muted:#666;--editorial-line:#dedede}
+body{color:var(--editorial-ink);font-family:Arial,Helvetica,sans-serif}
+header{background:#fff!important;color:#151515!important;border-bottom:1px solid #dedede!important}
+header .brand-name,header nav a{color:#151515!important}
+header nav a:hover{color:#555!important}
+.gd-intro,.gd-feature:not(.gd-computing),.generator-section{background:#fff;color:#151515}
+.gd-intro h2,.gd-feature h2,.gd-columns h3{color:#171717!important}
+.gd-intro p,.gd-feature p{color:#555!important}
+.gd-kicker,.gd-label,.gd-link{color:#333!important}
+.gd-columns article{border-top-color:#d5d5d5!important}
+.gd-computing{background:#f4f4f4!important}
+.generator-section input,.generator-section select{background:#fff;color:#151515;border-color:#bbb}
+.generator-section button#exportBtn,.generator-section button#previewBtn{background:#151515!important;color:#fff!important;border-color:#151515!important}
+.generator-section button#exportBtn:hover,.generator-section button#previewBtn:hover{background:#444!important}
+/* Preserve colorful earth, hero imagery, gradients, maps, diagrams, and image assets. */
+.zhero-globe img,.gd-globe img,.zharief-brand-art img,.zhero-network{filter:none!important}
+.zhero,.download-hero,.gd-feature-visual,.gd-globe{filter:none!important}
+:focus-visible{outline:2px solid #151515;outline-offset:3px}
+@media(max-width:700px){header nav{flex-wrap:wrap}.gd-intro-grid,.gd-columns{grid-template-columns:1fr}}

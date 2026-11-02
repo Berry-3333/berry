@@ -1,0 +1,1 @@
+Homepage global data section: moon-habitat.jpg background; left animation Moon_rotating_full_160px.gif by Geek3, CC BY 3.0, Wikimedia Commons. The prior green globe GIF is no longer used in this section. Internet is needed to load the Moon GIF from Wikimedia Commons. The separate original rotating Earth in the topmost hero remains unchanged.

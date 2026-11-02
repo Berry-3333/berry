@@ -1,0 +1,6 @@
+
+/* Ensure floating chat remains accessible on phones and tablets */
+html body #zai-launch.zai-launch{position:fixed!important;display:flex!important;visibility:visible!important;opacity:1!important;right:max(14px,env(safe-area-inset-right,0px))!important;bottom:max(16px,env(safe-area-inset-bottom,0px))!important;top:auto!important;left:auto!important;z-index:2147483646!important;transform:none!important;pointer-events:auto!important;max-width:calc(100vw - 28px);touch-action:manipulation}
+html body #zai-panel.zai-v2{position:fixed!important;z-index:2147483647!important;right:max(10px,env(safe-area-inset-right,0px))!important;bottom:calc(78px + env(safe-area-inset-bottom,0px))!important;left:auto!important;top:auto!important;width:min(430px,calc(100vw - 20px))!important;max-height:calc(100vh - 105px)!important;max-height:calc(100dvh - 105px)!important}
+html body #zai-panel.zai-v2.is-open{display:flex!important;visibility:visible!important;opacity:1!important;pointer-events:auto!important}
+@media(max-width:540px){html body #zai-launch.zai-launch{padding:12px 15px!important;font-size:13px!important}html body #zai-panel.zai-v2{height:calc(100dvh - 110px)!important}}

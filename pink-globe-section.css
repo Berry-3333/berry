@@ -1,0 +1,12 @@
+/* Zharief.com globe section: replace zharief-pink-globe.gif to change animation. */
+.gd-feature-visual{background-image:none!important;background:#081a22!important}
+.zharief-brand-story{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);align-items:center;gap:clamp(28px,6vw,100px);padding:clamp(38px,6vw,85px) max(22px,calc((100vw - 1160px)/2));background:#071821;color:#fff;overflow:hidden}
+.zharief-brand-art{display:flex;align-items:center;justify-content:center;min-width:0}
+.zharief-brand-art img{display:block;width:min(100%,370px);height:auto;aspect-ratio:1;object-fit:contain;border-radius:12px}
+.zharief-brand-copy{min-width:0}.zharief-brand-kicker{color:#f5a6c8;font:600 11px/1.5 Arial,sans-serif;letter-spacing:.2em}
+.zharief-brand-copy h2{color:#fff!important;font:400 clamp(38px,5vw,68px)/1.08 Arial,sans-serif!important;letter-spacing:-.045em;margin:20px 0!important}
+.zharief-brand-copy p{color:#c6d5db!important;font:400 clamp(15px,1.5vw,18px)/1.75 Arial,sans-serif!important;max-width:590px}
+.zharief-brand-copy .zharief-brand-note{font-size:13px!important;color:#9fb5bf!important}
+.zharief-brand-link{display:inline-flex;gap:12px;margin-top:20px;color:#fff;background:#e87c2d;text-decoration:none;padding:15px 20px;border-radius:3px;font:700 11px Arial,sans-serif;letter-spacing:.08em}
+@media(max-width:720px){.zharief-brand-story{grid-template-columns:1fr;gap:18px;padding:38px 22px 46px}.zharief-brand-art img{width:min(72vw,280px)}.zharief-brand-copy h2{font-size:clamp(35px,10vw,49px)!important;margin:10px 0!important}.zharief-brand-copy p{font-size:15px!important;line-height:1.65!important}}
+@media(max-width:360px){.zharief-brand-art img{width:min(72vw,225px)}}

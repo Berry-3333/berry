@@ -1,0 +1,52 @@
+/* Homepage animated global connectivity network */
+.download-hero{position:relative;overflow:hidden;isolation:isolate;background:radial-gradient(ellipse at 75% 42%,#142e52 0%,#09172b 48%,#070d19 100%)}
+.global-network{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0;opacity:.87}
+.download-hero .hero-inner{position:relative;z-index:1}
+.download-hero .hero-inner h1,.download-hero .hero-subtitle,.download-hero .download-page-label{text-shadow:0 2px 25px rgba(0,0,0,.4)}
+@media(max-width:700px){.global-network{opacity:.35}.download-hero{background:#09172b}}
+@media(prefers-reduced-motion:reduce){.global-network{opacity:.4}}
+
+/* Light theme: keep original white homepage with blue global network */
+body{background:#fff;color:#18263a}
+header{background:#fff;border-bottom:1px solid #e2e7ed;color:#18263a}nav{color:#52647b}
+.download-hero{background:radial-gradient(ellipse at 75% 42%,#eaf4ff 0%,#f8fbff 48%,#fff 100%);color:#18263a}
+.download-hero .hero-inner h1,.download-hero .hero-subtitle,.download-hero .download-page-label{text-shadow:none}
+.global-network{opacity:.43;filter:none}
+.generator-section{background:#f7f9fc;color:#1b2c42}
+.generator-card{background:#fff;border-color:#dbe3ec;box-shadow:0 14px 40px #1c41600a}
+.generator-card input,.generator-card select{background:#fff;color:#1b2c42;border-color:#c7d2df}
+.generator-actions button{background:#e7f0fb;color:#16385d}
+.generator-note,#status,.generator-disclaimer{color:#52647b}
+#preview th,#preview td{border-bottom-color:#dce4ee}#preview th{color:#255b96}
+.country-folder{background:#f8fbff;color:#1b2c42;border-color:#dce4ee}
+@media(max-width:700px){.global-network{opacity:.28}.download-hero{background:#f8fbff}}
+/* OpenData.org-inspired light palette: warm ivory, ink, orange accents */
+:root{--paper:#faf9f6;--ink:#20231f;--muted:#626760;--accent:#e66b36;--line:#e5e2dc}
+body{background:var(--paper);color:var(--ink)}
+header{background:var(--paper);border-bottom:1px solid var(--line);color:var(--ink)}nav,nav a{color:#525850}nav a:hover,nav .active{color:var(--accent);border-bottom-color:var(--accent)}
+.brand span,.eyebrow,.download-page-label{color:var(--accent)}.header-cta,.button{background:var(--accent);color:white}.header-cta:hover,.button:hover{background:#cb5324}
+.download-hero{background:radial-gradient(ellipse at 75% 42%,#fff3e9 0%,#faf9f6 53%,#f7f5f0 100%);color:var(--ink)}
+.download-hero h1 span{color:var(--accent)}.hero-subtitle,.download-footnote{color:var(--muted)}
+.global-network{opacity:.46;filter:sepia(.7) saturate(1.5) hue-rotate(325deg)}
+.download-panel,.generator-card{background:white;border:1px solid var(--line);box-shadow:0 14px 34px #2620170a}
+.primary-download,.file-row a{background:var(--ink);color:white}.primary-download:hover,.file-row a:hover{background:var(--accent)}
+.file-icon{background:#fff0e6;color:var(--accent)}
+.generator-section,.file-section{background:#f4f2ed;color:var(--ink)}
+.generator-card input,.generator-card select{background:white;color:var(--ink);border-color:#d7d3ca}
+.generator-actions button{background:#fff0e5;color:#873f20}.generator-actions button:hover{background:#f9d7c3}
+.generator-note,#status,.generator-disclaimer,.info-copy p,.closing p{color:var(--muted)}
+#preview th{color:#a54b26}#preview th,#preview td{border-bottom-color:var(--line)}
+.country-folder{background:#faf9f6;color:var(--ink);border-color:var(--line)}
+@media(max-width:700px){.download-hero{background:#faf9f6}.global-network{opacity:.27}}
+/* GDELT-inspired geographical globe, intentionally isolated from the light site palette */
+.download-hero{background:linear-gradient(115deg,#070a15 0%,#03040b 65%,#000 100%)!important;color:#fff!important;min-height:640px}
+.global-network{opacity:1!important;filter:none!important;pointer-events:auto!important;z-index:0!important;cursor:grab}
+.global-network:active{cursor:grabbing}
+.download-hero .hero-inner{position:relative;z-index:1;pointer-events:none}
+.download-hero .hero-inner a,.download-hero .hero-inner button{pointer-events:auto}
+.download-hero h1 span{color:#fff!important}.download-hero .hero-subtitle,.download-hero .download-footnote{color:#c5cbd9!important}
+.download-hero .download-page-label{color:#b2c5ed!important}
+.download-hero .download-panel{background:rgba(8,17,35,.87)!important;border:1px solid rgba(170,196,233,.24)!important;color:white!important;backdrop-filter:blur(12px)}
+.download-hero .file-summary strong{color:white!important}.download-hero .file-summary small{color:#b7c8e0!important}
+@media(max-width:850px){.download-hero{min-height:740px!important}.global-network{height:400px!important;top:320px!important;bottom:auto!important}.download-hero .hero-inner{padding-bottom:370px!important}}
+@media(max-width:600px){.download-hero{min-height:810px!important}.global-network{top:400px!important;height:390px!important}.download-hero .hero-inner{padding-bottom:395px!important}}

@@ -1,0 +1,1 @@
+Mars inverse-curve section between Worldwide Exploration and Computing with Concepts. Local background: mars-habitat.jpg. Rotating Mars animation loaded from Wikimedia Commons (requires internet). Attribution: JOGOS Public Assets, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Spinning_Mars.gif . The GIF is decorative and non-clickable. All 14 generators retained.

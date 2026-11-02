@@ -1,0 +1,1 @@
+Zharief Blog + responsive hamburger navigation. Desktop: full navigation. Tablet/mobile (1100px and below): three-line menu with accessible toggle, closes on link, outside click, or Escape. Blog page currently Coming soon. Upload extracted parent folder to Cloudflare Pages.

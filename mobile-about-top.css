@@ -1,0 +1,9 @@
+/* Compact navigation: About stays visible on phones, no horizontal scrolling. */
+@media(max-width:600px){
+ header{display:flex!important;align-items:center!important;justify-content:space-between!important;gap:8px!important}
+ header nav{order:3!important;display:flex!important;flex:1 0 100%!important;justify-content:space-between!important;gap:8px!important;overflow:visible!important;white-space:nowrap!important;padding:7px 0 2px!important}
+ header nav a{font-size:clamp(9px,2.65vw,12px)!important;flex:0 1 auto!important}
+ header nav a[href="#world"],header nav a[href="#computing"]{display:none!important}
+ header .header-cta{font-size:clamp(9px,2.3vw,11px)!important}
+}
+@media(max-width:360px){header{padding:10px 12px!important}header nav{gap:6px!important}}
